@@ -12,26 +12,54 @@
     <title>Bootstrap</title>
 </head>
 <body>
-    <header class="blue">
-
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BOOTSTRAP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+              <li class="nav-item dropdown">
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
 
     <section id="jumbotron">
-
+        <img src="img/avatar.svg" alt="avatar">
+        <h1>START BOOTSTRAP</h1>
+        <h4>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h4>
     </section>
 
     <main>
         <div class="white">
             <div class="row">
-                <div class="col-4 block b-bordeaux"></div>
-                <div class="col-4 block b-aqua"></div>
-                <div class="col-4 block b-black"></div>
-            </div>
-
-            <div class="row">
-                <div class="col-4 block b-light-blue"></div>
-                <div class="col-4 block b-blue"></div>
-                <div class="col-4 block b-cream"></div>
+                <div class="col-4 container-block">
+                    <div class="block b-bordeaux">
+                        <img src="img/cabin.png" alt="cabin">
+                    </div>
+                </div>
+                <div class="col-4 container-block"></div>
+                <div class="col-4 container-block"></div>
+                <div class="col-4 container-block"></div>
+                <div class="col-4 container-block"></div>
+                <div class="col-4 container-block"></div>
             </div>
         </div>
 
@@ -53,5 +81,7 @@
             
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
