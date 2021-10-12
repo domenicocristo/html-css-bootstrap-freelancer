@@ -40,14 +40,14 @@
 .container-block {
     height: 230px;
     width: calc(100% / 3);
-    border: 1px solid black;
-    padding: 0;
+    padding: 10px;
 }
 
 .block {
     height: 100%;
     width: 100%;
     border-radius: 10px;
+    padding: 5px;
 }
 
 .block img {
