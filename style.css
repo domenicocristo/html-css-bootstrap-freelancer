@@ -35,17 +35,24 @@
   
 .line-star:before,
 .line-star:after {
-    background-color: #000;
+    background-color: white;
     content: "";
     display: inline-block;
-    height: 2px;
+    height: 3px;
     position: relative;
     vertical-align: middle;
     width: 10%;
 }
 
+.line-star i {
+    color: white;
+    font-size: 25px;
+    padding: 0 20px;
+}
+
 #jumbotron h4 {
     color: white;
+    margin-top: 20px;
 }
 /* /Jumbotron */
 
@@ -114,6 +121,8 @@
     display: inline-block;
     text-align: left;
     color: white;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 #about button {
